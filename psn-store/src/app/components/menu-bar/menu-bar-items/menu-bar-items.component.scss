@@ -1,0 +1,31 @@
+@import '../../../../assets/variables.scss';
+
+.container {
+  display: flex;
+  margin-right: 16px;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    list-style-type: none;
+
+    &__item {
+      border-radius: 16px;
+      margin-right: 8px;
+      padding: 2px 16px;
+
+
+      &__link {
+        text-decoration: none;
+        padding: 4px;
+        color: black;
+        font-weight: 700;
+      }
+    }
+
+    &__item:hover {
+      background-color: $font-shadow;
+    }
+  }
+
+}

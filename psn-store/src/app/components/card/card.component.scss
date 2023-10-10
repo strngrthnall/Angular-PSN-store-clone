@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+
+  border: 1px solid #3e4e57;
+  border-radius: 6px;
+
+  width: 350px;
+  height: 500px;
+
+  display: flex;
+  overflow: hidden;
+  margin-top: 12px;
+
+  &__img {
+    min-width: 100%;
+    min-height: 100%;
+    transition: transform .8s;
+  }
+
+  &__img:hover{
+    transform: scale(1.05);
+  }
+}
