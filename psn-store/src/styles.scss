@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+@import './assets/variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: $base-blue;
+  background: linear-gradient(90deg, $base-blue 0%, $second-blue 35%, $second-blue 100%);
+}
