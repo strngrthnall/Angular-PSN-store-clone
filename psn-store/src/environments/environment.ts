@@ -8,7 +8,7 @@ export const environment = {
   linkedin: 'https://www.linkedin.com/in/marcos-vinicius-ribeiro-de-miranda-a96b97215/',
   github: 'https://www.github.com/strngrthnall',
 
-  heroBackground: 'https://image.api.playstation.com/pr/bam-art/163/941/7bd2eaaa-604d-4867-95d2-473701f97b7a.jpg?w=54&thumb=true',
+  heroBackground: 'https://image.api.playstation.com/pr/bam-art/163/941/7bd2eaaa-604d-4867-95d2-473701f97b7a.jpg?w=1920',
   heroDisclaimer: 'https://image.api.playstation.com/pr/bam-art/163/941/1417551c-30d2-4a5a-94c5-61c265dad16d.png?w=440&thumb=false'
 
 };
