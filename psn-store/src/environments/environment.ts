@@ -9,8 +9,13 @@ export const environment = {
   github: 'https://www.github.com/strngrthnall',
 
   heroBackground: 'https://image.api.playstation.com/pr/bam-art/163/941/7bd2eaaa-604d-4867-95d2-473701f97b7a.jpg?w=1920',
-  heroDisclaimer: 'https://image.api.playstation.com/pr/bam-art/163/941/1417551c-30d2-4a5a-94c5-61c265dad16d.png?w=440&thumb=false'
+  heroDisclaimer: 'https://image.api.playstation.com/pr/bam-art/163/941/1417551c-30d2-4a5a-94c5-61c265dad16d.png?w=440&thumb=false',
 
+  games: {
+    'Spider-Man 2': 'https://image.api.playstation.com/pr/bam-art/164/602/e0753123-4f8e-4bb4-bb3b-df55e0bfb75d.png?w=620&thumb=false',
+    'Elden Ring': 'https://image.api.playstation.com/pr/bam-art/163/954/ac6634fd-f8a4-4f12-bdde-3109305375e4.jpg?w=620&thumb=false',
+    'Call of Duty': 'https://image.api.playstation.com/pr/bam-art/164/301/00edc758-735c-4f5c-8b67-e648c608211b.png?w=620&thumb=false',
+  }
 };
 
 /*
