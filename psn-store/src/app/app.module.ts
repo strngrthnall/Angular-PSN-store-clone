@@ -10,6 +10,7 @@ import { CardLabelComponent } from './components/card/card-label/card-label.comp
 import { CardPricingComponent } from './components/card/card-pricing/card-pricing.component';
 import { MenuBarItemsComponent } from './components/menu-bar/menu-bar-items/menu-bar-items.component';
 import { HeroComponent } from './components/hero/hero.component';
+import { GamesListComponent } from './components/games-list/games-list.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HeroComponent } from './components/hero/hero.component';
     CardLabelComponent,
     CardPricingComponent,
     MenuBarItemsComponent,
-    HeroComponent
+    HeroComponent,
+    GamesListComponent
   ],
   imports: [
     BrowserModule,

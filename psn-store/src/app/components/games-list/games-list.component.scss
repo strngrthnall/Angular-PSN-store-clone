@@ -1,0 +1,51 @@
+@import '../../../assets/variables.scss';
+
+.games {
+  margin-top: 32px;
+  padding-top: 0px;
+  width: 100%;
+
+  &__new{
+    display: flex;
+    flex-direction: column;
+
+    &__wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 100%;
+      
+      margin: 0 0 16px;
+    }
+    &__button {
+      min-width: 100%;
+
+      display: flex;
+      justify-content: space-around;
+
+
+      margin-bottom: 16px;
+
+      font-weight: 900;
+      color: $second-blue;
+
+      & > span {
+        padding: 4px 8px;
+        border-radius: 16px;
+      }
+    }
+    &__button > span:hover {
+      background-color: $font-shadow;
+      cursor: pointer;
+
+    }
+  }
+
+}
+
+
+.hidden {
+  display: none;
+}
+

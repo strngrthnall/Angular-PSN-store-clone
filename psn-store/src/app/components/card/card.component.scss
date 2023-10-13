@@ -1,14 +1,13 @@
 .container {
-  position: relative;
-
   border-radius: 6px;
+  margin: 0 8px;
 
-  width: 324px;
-  height: 324px;
+  width: 400px;
+  height: 400px;
 
   display: flex;
   overflow: hidden;
-  margin-top: 12px;
+  padding: 0;
 
   &__img {
     min-width: 100%;
