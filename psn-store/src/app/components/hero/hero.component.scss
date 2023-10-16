@@ -1,0 +1,58 @@
+@import '../../../assets/variables.scss';
+
+.hero {
+  margin-top: 78px;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  &__images {
+    max-height: 410px;
+    overflow: hidden;
+
+    &__back {
+      max-width: 100%;
+      max-height: 100%;
+      position: relative;
+    }
+
+    &__front {
+      max-width: 25%;
+
+      position: absolute;
+      z-index: 2;
+      left: 250px;
+      bottom: 150px;
+      margin: auto;
+    }
+  }
+
+  &__footer {
+    padding: 32px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 0 16px 0 #00000080;
+
+    &__title {
+      margin: 8px;
+      font-weight: 200;
+    }
+
+    &__btn {
+      margin: 8px;
+      padding: 8px 16px;
+
+      background-color: $second-blue;
+      border-radius: 16px;
+
+      color: white;
+      text-decoration: none;
+      font-weight: bolder;
+    }
+
+  }
+}

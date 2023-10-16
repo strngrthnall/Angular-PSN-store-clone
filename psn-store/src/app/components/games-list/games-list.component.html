@@ -1,0 +1,25 @@
+<div class="games">
+  <div class="games__new">
+    <div class="games__new__wrap">
+      <app-card imageCover="{{environment.games['Spider-Man 2']}}"></app-card>
+      <app-card imageCover="{{environment.games['Elden Ring']}}"></app-card>
+      <app-card imageCover="{{environment.games['Call of Duty']}}"></app-card>
+    </div>
+    <div class="games__new__wrap">
+      <app-card imageCover="{{environment.games['The Crew']}}"></app-card>
+      <app-card imageCover="{{environment.games['Roblox']}}"></app-card>
+      <app-card imageCover="{{environment.games['FC 24']}}"></app-card>
+    </div>
+    <div class="games__new__wrap {{gamesHidden}}">
+      <app-card imageCover="{{environment.games['AC Mirage']}}"></app-card>
+      <app-card imageCover="{{environment.games['Starrail']}}"></app-card>
+      <app-card imageCover="{{environment.games['Nfl 24']}}"></app-card>
+    </div>
+    <div class="games__new__wrap {{gamesHidden}}">
+      <app-card imageCover="{{environment.games['Horizon']}}"></app-card>
+    </div>
+    <div class="games__new__button {{buttonHidden}}">
+      <span (click)="hide()">Mostrar mais</span>
+    </div>
+  </div>
+</div>
